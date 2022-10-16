@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica', sans-serif;
+  }
+  .container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+    /* height: 74.5vh; */
+    height: 722px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+  }
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+  }
+  .left{
+    margin-top: 11rem;
+  }
+  .logo{
+    height: 6.5rem;
+    width: auto;
+    margin-left: -30px;
+    margin-bottom: -2.3rem;
+  }
+  .right{
+    margin-top: 8.5rem;
+    background-color: rgb(255, 255, 255);
+    /* width: 43rem; */
+    max-width: 500px;
+    height: 22rem;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+  }
+  .logo-p{
+    font-size: 1.5rem;
+    padding-right: 9rem;
+  }
+  .btn-signin{
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    height: 3rem;
+    width: 24rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #1877F2;
+    outline: none;
+    text-align: center;
+  }
+  .input-div{
+    margin-top: 1rem;
+  }
+  input{
+    /* margin-top: rem; */
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid #DDDFE2;
+    margin: 5px;
+    width: 22rem;
+    font-size: 1rem;
+  }
+  .signup-btn{
+    background-color: #42B72A;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 13rem;
+    height: 3rem;
+  }
+  .forgot-password{
+    text-decoration: none;
+    color: #188CF5;
+    margin-top: .8rem;
+    font-size: .92rem;
+  }
+  .email{
+    margin-top: -1.2rem;
+  }
+  .hr-hr hr{
+    margin-top: 1.5rem;
+    width: 23.5rem;
+    background-color: rgb(177, 177, 177);
+    margin-bottom: 1.5rem;
+    opacity: .3;
+  }
+  
+  /* FOOTER */
+  
+  .footer{
+    /* display: flex; */
+    margin-right: 10px;
+  }
+  .footer .languages{
+    display: flex;
+    list-style: none;
+    margin: 1rem 1rem -.5rem 1rem;
+    
+  }
+  .footer .languages li{
+    margin: .4rem;
+  }
+  .footer > * {
+    margin: .5rem;
+    font-size: .8rem;
+    color: #8A8D91;
+  }
+  .plus{
+    width: auto;
+    height: 12px;
+    padding: 0;
+    border: ;
+  }
+  .footer-hr{
+    padding: 0 3.4rem;
+    margin-top: 10px;
+    opacity: .3;
+  }
